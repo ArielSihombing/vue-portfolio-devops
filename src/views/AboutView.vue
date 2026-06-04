@@ -6,102 +6,126 @@ export default {
       tech: [
         {
           id: 1,
-          name: 'HTML',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+          name: 'Linux',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/6124/6124995.png',
           status: 'Advanced'
         },
         {
           id: 2,
-          name: 'CSS',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+          name: 'Docker',
+          imageUrl: 'https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png',
           status: 'Advanced'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          name: 'Kubernetes',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg',
+          status: 'Intermediate'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          name: 'AWS',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+          status: 'Intermediate'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          name: 'Git',
+          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+          status: 'Advanced'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          name: 'GitHub Actions',
+          imageUrl: 'https://avatars.githubusercontent.com/u/44036562?s=200&v=4',
           status: 'Intermediate'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          name: 'OpenTofu',
+          imageUrl: 'https://opentofu.org/img/logo.svg',
           status: 'Intermediate'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
+          name: 'Nginx',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg',
+          status: 'Advanced'
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
-        },
-        {
-          id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
-        },
-        {
-          id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+          name: 'Grafana',
+          imageUrl: 'https://grafana.com/static/img/menu/grafana2.svg',
           status: 'Intermediate'
         },
         {
+          id: 10,
+          name: 'Prometheus',
+          imageUrl: 'https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/images/prometheus-logo.svg',
+          status: 'Intermediate'
+        },
+        {
+          id: 11,
+          name: 'Bash',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/919/919830.png',
+          status: 'Advanced'
+        },
+        {
           id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
+          name: 'MySQL',
+          imageUrl: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png',
+          status: 'Intermediate'
         }
       ],
-      tools: [
+     tools: [
         {
           id: 1,
-          name: 'Git',
-          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          name: 'Docker',
+          imageUrl: 'https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png',
+          status: 'Containerization'
         },
         {
           id: 2,
-          name: 'GitHub',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
-          status: 'Git Hosting'
+          name: 'Kubernetes',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg',
+          status: 'Container Orchestration'
         },
         {
           id: 3,
-          name: 'NPM',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          name: 'GitHub',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+          status: 'Source Control'
         },
         {
           id: 4,
-          name: 'MySQL',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          name: 'GitHub Actions',
+          imageUrl: 'https://avatars.githubusercontent.com/u/44036562?s=200&v=4',
+          status: 'CI/CD'
         },
+        {
+          id: 5,
+          name: 'OpenTofu',
+          imageUrl: 'https://opentofu.org/img/logo.svg',
+          status: 'Infrastructure as Code'
+        },
+        {
+          id: 6,
+          name: 'Grafana',
+          imageUrl: 'https://grafana.com/static/img/menu/grafana2.svg',
+          status: 'Monitoring'
+        },
+        {
+          id: 7,
+          name: 'Prometheus',
+          imageUrl: 'https://cdn.worldvectorlogo.com/logos/prometheus.svg',
+          status: 'Metrics Collection'
+        },
+        {
+          id: 8,
+          name: 'Nginx',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg',
+          status: 'Web Server'
+        }
       ]
     };
   }
